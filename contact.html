@@ -1,134 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Mirrored from allappsreveiws.com.ng/palmpay/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 27 Sep 2023 21:11:55 GMT -->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Form</title>
+  <title>Contact Us</title>
   <style>
-    * {
-      box-sizing: border-box;
-    }
-
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      padding: 20px;
+      padding: 0;
+      background-color: #f4f4f9;
     }
 
     .container {
-      max-width: 500px;
-      margin: 0 auto;
+      max-width: 600px;
+      margin: 20px auto;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 
-    .form-group {
-      margin-bottom: 20px;
-    }
-
-    .form-group label {
-      display: block;
-      margin-bottom: 5px;
-      font-weight: bold;
-    }
-
-    .form-group input,
-    .form-group textarea {
-      width: 100%;
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      resize: none;
-    }
-
-    .form-group textarea {
-      height: 100px;
-    }
-
-    .form-group button {
-      display: block;
-      width: 100%;
-      padding: 10px;
-      border: none;
-      border-radius: 4px;
-      background-color: #5a00b5;
+    header h1 {
+      text-align: center;
+      background-color: #4a90e2;
       color: white;
-      cursor: pointer;
-    }
-
-    @media screen and (max-width: 600px) {
-      .container {
-        max-width: 100%;
-        padding: 0 20px;
-      }
-    }
-    
-    .bottom-menu {
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      background-color:   #5a00b5;
-      color: #fff;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
       padding: 10px;
-      z-index: 999;
+      border-radius: 8px 8px 0 0;
+      margin: 0;
     }
 
-    .bottom-menu a {
-      color: #fff;
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .contact-info p, .assistance-categories ul li, footer p {
+      font-size: 16px;
+      line-height: 1.5;
+      color: #555;
+    }
+
+    a {
+      color: #4a90e2;
       text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .assistance-categories ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .assistance-categories ul li {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      margin-top: 20px;
+      text-align: center;
+      color: #4a90e2;
       font-weight: bold;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h2>Contact Form</h2>
-    <p>do you need to talk to us? chat us up on email
-    </p>
-    <form action="mailto:Payperlick@gmail.com">
-      <div class="form-group">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-      </div>
-      <div class="form-group">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-      </div>
-      <div class="form-group">
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-      </div>
-      <div class="form-group">
-        <button type="submit">Submit</button>
-      </div>
-    </form>
+    <header>
+      <h1>Contact Us</h1>
+    </header>
+    <main>
+      <section class="contact-info">
+        <h2>Contact Information</h2>
+        <p>📞 Whatsapp Number: <a href="https://wa.me/2349129165186" target="_blank">+234 912 916 5186</a></p>
+        <p>📞 Telegram group: <a href="https://t.me/Gopayapp" target="_blank">Click Here</a></p>
+        <p>⏰ Availability: [24/7]</p>
+        <p>⏳ Response Time: [2mins]</p>
+      </section>
+      <section class="assistance-categories">
+        <h2>Assistance Categories</h2>
+        <ul>
+          <li>💼 Inquiries about [Passcode]</li>
+          <li>🛠 Technical Support for [Problems]</li>
+          <li>🛒 Orders and Returns for [Passcode]</li>
+        </ul>
+      </section>
+      <footer>
+        <p>👉 Feel free to send us a message, and we'll get back to you as soon as possible!</p>
+      </footer>
+    </main>
   </div>
-  
-  <div class="bottom-menu">
-    <a href="#">Home</a>
-    <a href="about.html">About</a>
-    <a href="buy.html">Buy</a>
-    <a href="contact.html">Contact</a>
-  </div>
-
-
-
-<!-- Start of LiveChat (www.livechat.com) code -->
-<script>
-  window.__lc = window.__lc || {};
-  window.__lc.license = 15808029;
-  ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[LiveChatWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="../../cdn.livechatinc.com/tracking.js",t.head.appendChild(n)}};!n.__lc.asyncInit&&e.init(),n.LiveChatWidget=n.LiveChatWidget||e}(window,document,[].slice))
-</script>
-<noscript><a href="https://www.livechat.com/chat-with/15808029/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
-<!-- End of LiveChat code -->
-
-
 </body>
-
-
-<!-- Mirrored from allappsreveiws.com.ng/palmpay/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 27 Sep 2023 21:11:55 GMT -->
 </html>
